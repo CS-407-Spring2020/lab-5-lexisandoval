@@ -35,12 +35,6 @@ public class Main3Activity extends AppCompatActivity {
         }
     }
 
-    public void goToActivity2() {
-
-        Intent intent = new Intent(this, c.sakshi.lab5.Main2Activity.class);
-        startActivity(intent);
-    }
-
     public void onClick(View view) {
 
         EditText editText = (EditText) findViewById(R.id.editText);
@@ -66,5 +60,11 @@ public class Main3Activity extends AppCompatActivity {
         }
 
         goToActivity2();
+    }
+
+    public void goToActivity2() {
+
+        Intent intent = new Intent(this, c.sakshi.lab5.Main2Activity.class);
+        startActivity(intent);
     }
 }
